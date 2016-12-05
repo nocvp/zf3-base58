@@ -1,0 +1,29 @@
+{
+  "name": "nocvp/zf3-base58",
+  "type": "module",
+  "keywords": [
+    "cms",
+    "zf3",
+    "base58"
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^5.6 || ^7.0",
+    "zendframework/zend-servicemanager-di": "^1.0",
+    "zendframework/zend-modulemanager": "^2.7"
+  },
+  "config": {
+    "secure-http": false
+  },
+  "autoload": {
+    "psr-4": {
+      "Base58\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Base58Test\\": "test/"
+    }
+  }
+}
